@@ -76,4 +76,6 @@ abstract class ICountryListWidgetModel extends IWidgetModel {
   ListenableState<EntityState<Iterable<Country>>> get countryListState;
 
   TextStyle get countryNameStyle;
+
+  BuildContext get context;
 }

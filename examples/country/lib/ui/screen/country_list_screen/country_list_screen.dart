@@ -12,6 +12,9 @@ class CountryListScreen extends ElementaryWidget<ICountryListWidgetModel> {
 
   @override
   Widget build(ICountryListWidgetModel wm) {
+    // ignore: unused_local_variable
+    final iGotAccessToProtected = wm.context;
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Список стран'),
